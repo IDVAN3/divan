@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<!-- Оболочка документа -->
+<html lang="ru">
+
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+    <title>Главная</title>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="libs/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!-- ОБОЛОЧКА -->
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__body row">
+            <div class="header__info header__logo  col-lg-3">
+              <a href="#">
+                <img src="img/logo.png" alt="">
+              </a>
+            </div>
+            <div class="header__info col-lg-3">
+              <div class="header__info-inner">
+                <a href="tel:+7 343 382 13 27" class="header__link">+7 343 382 13 27</a>
+                <a href="tel:+7 922 229 63 36" class="header__link">+7 922 229 63 36 (WhatsApp)</a>
+                <p class="header__text">10: 00 - 22: 00 без выходных</p>
+              </div>
+            </div>
+            <div class="header__info col-lg-3">
+              <div class="header__info-inner">
+                <p class="header__text fz-14">Бесплатный звонок по России</p>
+                <a href="tel:8 800 4444 650" class="header__link header__biglink">8 800 4444 650</a>
+                <a href="tel:+7 343 382 13 27" class="header__link header__underlink">Заказать обратный звонок</a>
+              </div>
+            </div>
+            <div class="header__info col-lg-3">
+              <div class="header__info-inner">
+                <h3 class="header__bigtext">Корзина покупок</h3>
+                <div class="wrapper-basket">
+                  <div class="basket__circle">
+                    <div class="basket__number">1</div>
+                  </div>
+                  <div class="header__text">Товар на сумму <span>22 000 ₽</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header__second">
+            <div class="header25 wrapper-header__menu">
+              <a href="#" class="header__menu-link">
+                <img src="img/icons/bars.png" alt="">
+                <p class="header__menu">КАТАЛОГ ТОВАРОВ</p>
+              </a>
+            </div>
+            <div class="header50 wrapper-header__list">
+              <ul class="header__list">
+                <li class="header__li">
+                  <a href="#" class="header__list-link">Оплата и доставка</a>
+                </li>
+                <li class="header__li">
+                  <a href="#" class="header__list-link">Отзывы</a>
+                </li>
+                <li class="header__li">
+                  <a href="#" class="header__list-link">Гарантия и возврат</a>
+                </li>
+                <li class="header__li">
+                  <a href="#" class="header__list-link">Акции</a>
+                </li>
+                <li class="header__li">
+                  <a href="#" class="header__list-link">Контакты</a>
+                </li>
+              </ul>
+            </div>
+            <div class="header25 wrapper-search">
+              <img src="img/icons/search.png" alt="">
+              <input type="text" class="header__search" placeholder="Поиск по каталогу">
+            </div>
+          </div>
+        </div>
+      </header>  
+      <main class="main">
+        <div class="container">
+          <div class="bread-crumbs">
+            <a href="#" class="bread-crumbs__item">Главная</a>
+            <div class="bread-crumbs__line">></div>
+            <a href="#" class="bread-crumbs__item">Еврокнижки</a>
+            <div class="bread-crumbs__line">></div>
+            <span class="bread-crumbs__item">Еврокнижка ЭКО 27 (Металлокаркас)</span>
+          </div>
+          <div class="product">
+            <div class="product__left">
+              <div class="product__header">
+                <h2 class="product__title">ЕВРОКНИЖКА ЭКО 27 (МЕТАЛЛОКАРКАС) ТРОЙНОЙ РАСКЛАДКИ (САЛАМАНДРА)</h2>
+                <div class="product__capabilities">
+                  <a href="#" class="product__clock">
+                    <img src="img/icons/clock.png" alt="">
+                    <div class="product__clock-text">Предзаказ</div>
+                  </a>
+                  <a href="#" class="product__comparison">
+                    <img src="img/icons/comparison.png" alt="">
+                  </a>
+                  <a href="#" class="product__heart">
+                    <i class="svg-icon">
+                      <svg class="icon__heart">
+                        <use xlink:href="img/icons/sprite.svg#heart"></use>
+                      </svg>
+                    </i>
+                    <i class="svg-icon">
+                      <svg class="icon__heart-icon icon__heart">
+                        <use xlink:href="img/icons/sprite.svg#heart-icon"></use>
+                      </svg>
+                    </i>
+                  </a>
+                </div>
+              </div>
+              <div class="product__slider">
+                <div class="sliderbig">
+                  <div class="sliderbig__item">
+                      <div class="wrapper-big">
+                          <a data-fancybox="gallery" href="img/slider/divan.png">
+                              <img src="img/slider/divan.png" alt="">
+                          </a>
+                      </div>
+                  </div>
+                  <div class="sliderbig__item">
+                      <div class="wrapper-big">
+                          <a data-fancybox="gallery" href="img/slider/divan2.png">
+                              <img src="img/slider/divan2.png" alt="">
+                          </a>
+                      </div>
+                  </div>
+                  <div class="sliderbig__item">
+                      <div class="wrapper-big">
+                          <a data-fancybox="gallery" href="img/slider/divan3.png">
+                              <img src="img/slider/divan3.png" alt="">
+                          </a>
+                      </div>
+                  </div>
+                  <div class="sliderbig__item">
+                    <div class="wrapper-big">
+                        <a data-fancybox="gallery" href="img/slider/divan1.png">
+                            <img src="img/slider/divan1.png" alt="">
+                        </a>
+                    </div>
+                </div>
+              </div>
+              <div class="wrapper-slider-product">
+                  <div class="slider-product">
+                      <div class="product__item">
+                          <div class="wrapper-product">
+                              <img src="img/slider/divan1.png" alt="">
+                          </div>
+                      </div>
+                      <div class="product__item">
+                          <div class="wrapper-product">
+                              <img src="img/slider/divan2.png" alt="">
+                          </div>
+                      </div>
+                      <div class="product__item">
+                          <div class="wrapper-product">
+                              <img src="img/slider/divan3.png" alt="">
+                          </div>
+                      </div>
+                      <div class="product__item">
+                        <div class="wrapper-product">
+                            <img src="img/slider/divan1.png" alt="">
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <div class="product__info">
+                <div class="product__characteristic product__flex">
+                  <h4 class="characteristic__title">Характеристики</h4>
+                  <ul class="characteristic__list">
+                    <li class="characteristic__li">
+                      <div class="characteristic__text">Механизм трансформации</div>
+                      <div></div>
+                      <div class="characteristic__text">стр. 1</div>
+                    </li>
+                    <li class="characteristic__li">
+                      <div class="characteristic__text">Механизм</div>
+                      <div></div>
+                      <div class="characteristic__text">стр. 2</div>
+                    </li>
+                    <li class="characteristic__li">
+                      <div class="characteristic__text">Механизм форм</div>
+                      <div></div>
+                      <div class="characteristic__text">стр. 3</div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="product__size product__flex">
+                  <h4 class="characteristic__title">Размеры</h4>
+                  <div class="size">
+                    <div class="size__item">
+                      <div class="size__text">Длина</div>
+                      <div class="characteristic__text">1000</div>
+                    </div>
+                    <div class="size-icon">х</div>
+                    <div class="size__item">
+                      <div class="size__text">Ширина</div>
+                      <div class="characteristic__text">2000</div>
+                    </div>
+                    <div class="size-icon">х</div>
+                    <div class="size__item">
+                      <div class="size__text">Высота</div>
+                      <div class="characteristic__text">1000</div>
+                    </div>
+                  </div>
+                  <h4 class="characteristic__title">Спальное место</h4>
+                  <div class="characteristic__text">1000 х 2000 х 3000</div>
+                </div>
+              </div>
+              <div class="product__decription">
+                <h4 class="decription__title">Описание</h4>
+                <p class="decription__text">Между секциями дивана отсутствуют зазоры, что важно для качествМежду секциями дивана отсутствуют зазоры, что важно для качествМежду секциями дивана отсутствуют зазоры, что важно для качествМежду секциями дивана отсутствуют зазоры, что важно для качествМежду секциями дивана отсутствуют зазоры, что важно для качеств</p>
+                <p class="decription__text">Между секциями дивана отсутствуют зазоры, что важно для качеств</p>
+                <p class="decription__text">Между секциями дивана отсутствуют зазоры, что важно для качествМежду секциями дивана отсутствуют зазоры, что важно для качеств</p>
+              </div>
+            </div>
+            <div class="product__right">
+              <div class="price">
+                <div class="old-price">25 000 ₽</div>
+                <div class="new-price">22 000 ₽</div>
+              </div>
+              <div class="price">
+                <div class="price__color">-20%</div>
+                <div class="decription__title price__title">До конца акции 3 д. 12 ч. 25 мин. </div>
+              </div>
+              <a href="#" class="price__catalog">КАТАЛОГ  ТКАНЕЙ</a>
+              <div class="wrapper-price">
+                <div class="price__item">
+                  <div class="price__circle">?</div>
+                  <div class="price__text">Основная ткань:</div>
+                </div>
+                <div class="price__item">
+                  <div class="price__circle">?</div>
+                  <div class="price__text">Дополнительная ткань:</div>
+                </div>
+              </div>
+              <div class="wrapper-price wrapper-dop">
+                <div class="price__item">
+                  <span class="expand"></span>
+                  <div class="wrapper-expand">
+                    <h4 class="expand__title">Modus 15</h4>
+                    <div class="expand__subtitle">Велюр</div>
+                  </div>
+                </div>
+                <div class="price__item">
+                  <span class="expand"></span>
+                  <div class="wrapper-expand">
+                    <h4 class="expand__title">НЕ ВЫБРАНА</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="expand__subtitle text-center">или выберите готовое решение</div>
+              <div class="wrapper-regtangle">
+                <span class="expand"></span>
+                <span class="expand"></span>
+                <span class="expand"></span>
+                <span class="expand"></span>
+                <span class="expand"></span>
+              </div>
+              <div class="wrapper-select">
+                <h3 class="select__title">Выберите опции:</h3>
+                <div class="select__item">
+                  <div class="expand__subtitle">Ширина спального места</div>
+                  <div class="price__circle select__circle">?</div>
+                </div>
+                <select name="" id="" class="select-all">
+                  <option value="value2" selected disabled hidden>--- Выберите ---</option>
+                  <option value="value1">Значение 1</option> 
+                  <option value="value3">Значение 2</option>
+                </select>
+              </div>
+              <div class="wrapper-btns">
+                <div class="btns__item btn-orange">
+                  <a href="#" class="btns__link">В корзину</a>
+                </div>
+                <div class="btns__item btn-green">
+                  <a href="#" class="btns__link">В кредит</a>
+                </div>
+              </div>
+              <div class="wrapper-credit">
+                <a href="#" class="credit__link">Условия кредитования</a>
+              </div>
+              <div class="wrapper-icons">
+                <div class="icons__item">
+                  <img src="img/icons/truck-moving.png" alt="">
+                  <div class="icons__text">Бесплатная доставка по Екатеринбургу</div>
+                </div>
+                <div class="icons__item">
+                  <img src="img/icons/money-check.png" alt="">
+                  <div class="icons__text">Оплата при получении</div>
+                </div>
+                <div class="icons__item">
+                  <img src="img/icons/clipboard-check.png" alt="">
+                  <div class="icons__text">Гарантия 1,5 года</div>
+                </div>
+                <div class="icons__item">
+                  <img src="img/icons/clock2.png" alt="">
+                  <div class="icons__text">Срок изготовления 7 дней</div>
+                </div>
+              </div>
+              <a href="#" class="icons__underlink">Подробные условия оплаты и доставки</a>
+            </div>
+          </div>
+          <div class="divan">
+              <div class="divan__item">
+                <a href="#" class="divan__link"></a>
+                <div class="divan__header">
+                  <div class="price__color mr5">-20%</div>
+                  <div class="divan__title">3 д. 12 ч. 25 мин.</div>
+                  <a href="#" class="product__comparison ml5">
+                    <img src="img/icons/comparison.png" alt="">
+                  </a>
+                  <a href="#" class="product__heart ml5">
+                    <i class="svg-icon">
+                      <svg class="icon__heart">
+                        <use xlink:href="img/icons/sprite.svg#heart"></use>
+                      </svg>
+                    </i>
+                    <i class="svg-icon">
+                      <svg class="icon__heart-icon icon__heart">
+                        <use xlink:href="img/icons/sprite.svg#heart-icon"></use>
+                      </svg>
+                    </i>
+                  </a>
+                </div>
+                <div class="divan-img">
+                  <img src="img/product1.png" alt="">
+                </div>
+                <div class="divan__text">Название ДИВАНА с акцией,  таймером и выпадающими размерами</div>
+                <a href="#" class="product__clock pb15">
+                  <img src="img/icons/clock.png" alt="">
+                  <div class="product__clock-text">Предзаказ</div>
+                </a>
+                <div class="wrapper-divan-price">
+                  <div class="divan-price__old">22 000 ₽</div>
+                  <div class="divan-price__new">22 000 ₽</div>
+                </div>
+                <div class="product__size divanpb">
+                  <div class="size">
+                    <div class="size__item">
+                      <div class="size__text fz12">Длина</div>
+                      <div class="characteristic__text fz12">1000</div>
+                    </div>
+                    <div class="size-icon fz12">х</div>
+                    <div class="size__item">
+                      <div class="size__text fz12">Ширина</div>
+                      <div class="characteristic__text fz12">2000</div>
+                    </div>
+                    <div class="size-icon fz12">х</div>
+                    <div class="size__item">
+                      <div class="size__text fz12">Высота</div>
+                      <div class="characteristic__text fz12">1000</div>
+                    </div>
+                  </div>
+                  <h4 class="size__text fz12">Спальное место</h4>
+                  <div class="characteristic__text fz12">1000 х 2000 х 3000</div>
+                </div>
+              </div>
+              <div class="divan__item">
+                <a href="#" class="divan__link"></a>
+                <div class="divan__header fend">
+                  <a href="#" class="product__comparison ml5">
+                    <img src="img/icons/comparison.png" alt="">
+                  </a>
+                  <a href="#" class="product__heart active ml5">
+                    <i class="svg-icon">
+                      <svg class="icon__heart">
+                        <use xlink:href="img/icons/sprite.svg#heart"></use>
+                      </svg>
+                    </i>
+                    <i class="svg-icon">
+                      <svg class="icon__heart-icon icon__heart">
+                        <use xlink:href="img/icons/sprite.svg#heart-icon"></use>
+                      </svg>
+                    </i>
+                  </a>
+                </div>
+                <div class="divan-img">
+                  <img src="img/product1.png" alt="">
+                </div>
+                <div class="divan__text">Обычный товар в наличии и  добавлен в избранное</div>
+                <a href="#" class="product__clock pb15">
+                  <img src="img/icons/check-circle.png" alt="">
+                  <div class="product__on">В наличии</div>
+                </a>
+                <div class="wrapper-divan-price">
+                  <div class="divan-price__new">22 000 ₽</div>
+                </div>
+              </div>
+              <div class="divan__item">
+                <a href="#" class="divan__link"></a>
+                <div class="divan__header fend">
+                  <a href="#" class="product__comparison ml5">
+                    <img src="img/icons/comparison.png" alt="">
+                  </a>
+                  <a href="#" class="product__heart active ml5">
+                    <i class="svg-icon">
+                      <svg class="icon__heart">
+                        <use xlink:href="img/icons/sprite.svg#heart"></use>
+                      </svg>
+                    </i>
+                    <i class="svg-icon">
+                      <svg class="icon__heart-icon icon__heart">
+                        <use xlink:href="img/icons/sprite.svg#heart-icon"></use>
+                      </svg>
+                    </i>
+                  </a>
+                </div>
+                <div class="divan-img">
+                  <img src="img/product1.png" alt="">
+                </div>
+                <div class="divan__text">Матрас с размерами на страницах размеры всегда видны</div>
+                <a href="#" class="product__clock pb15">
+                  <img src="img/icons/check-circle.png" alt="">
+                  <div class="product__on">В наличии</div>
+                </a>
+                <div class="wrapper-divan-price">
+                  <div class="divan-price__new">22 000 ₽</div>
+                </div>
+                <table class="divan-table">
+                  <tr>
+                    <td>80x190</td>
+                    <td>80x190</td>
+                    <td>80x190</td>
+                    <td>80x190</td>
+                  </tr>
+                  <tr>
+                    <td>80x190</td>
+                    <td>80x190</td>
+                    <td>80x190</td>
+                    <td>104x190</td>
+                  </tr>
+                  <tr>
+                    <td>104x190</td>
+                    <td>104x190</td>
+                    <td>104x190</td>
+                    <td>104x190</td>
+                  </tr>
+                  <tr>
+                    <td>104x190</td>
+                    <td>104x190</td>
+                    <td>104x190</td>
+                    <td>104x190</td>
+                  </tr>
+                  <tr>
+                    <td>104x190</td>
+                    <td>104x190</td>
+                    <td>104x190</td>
+                  </tr>
+                </table>
+              </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <div class="footer__item aicenter">
+              <div class="footer__text">г. Екатеринбург, ул. Победы 65 (2 эт.)</div>
+              <a href="tel:8 800 4444 650" class="footer__links footer__phone">8 800 4444 650</a>
+              <div class="footer__text">10:00 - 22:00 без выходных</div>
+              <a href="mailto:sale@diavn-66.ru" class="footer__links">sale@diavn-66.ru</a>
+            </div>
+            <div class="footer__item">
+              <h2 class="footer__title">Каталог товаров</h2>
+              <ul class="footer__list">
+                <li>
+                  <a href="#" class="footer__link">Мягкая мебель</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Гостиная</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Спальня</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Шкафы</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Детская</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Матрасы</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Прихожая</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__item">
+              <h2 class="footer__title">Информация</h2>
+              <ul class="footer__list">
+                <li>
+                  <a href="#" class="footer__link">Оплата и доставка</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Отзывы</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Гарантия и возврат</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Акции</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Контакты</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Карта сайта</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__item">
+              <div class="wrapper-search">
+                <img class="img-search" src="img/icons/search2.png" alt="">
+                <input type="text" class="footer__search" placeholder="Поиск по каталогу">
+              </div>
+              <div class="header__logo footer-all">
+                <a href="#">
+                  <img src="img/logo2.png" alt="">
+                </a>
+              </div>
+              <div class="footer-all">Информация на сайте носит информационный характер и не является</div>
+              <div class="footer-all">Мебельный интернет-магазин <br> «Диван-66.ру» 2013 - 2020</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>    
+
+    
+    <!-- Подключеине скриптов -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/slick.min.js"></script>
+    <script src="libs/jquery.fancybox.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
