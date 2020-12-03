@@ -157,7 +157,6 @@ body {
 }
 .header__underlink {
   font-size: 16px;
-  text-decoration: underline;
 }
 .header__biglink {
   font-size: 20px;
@@ -165,7 +164,7 @@ body {
 }
 .header__bigtext {
   font-size: 20px;
-
+  color: rgb(66, 76, 74);
   font-weight: bold;
 }
 .wrapper-basket {
@@ -339,17 +338,29 @@ body {
   align-items: center;
   position: relative;
 }
+
 .icon__heart {
-  width: 23px;
-  height: 20px;
-  fill: #ff3333;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 0;
+  width: 23px;
+  height: 20px;
+  background: url('../img/icons/like.png');
   transition: 0.4s;
+  opacity: 1;
 }
 .icon__heart-icon {
+  width: 23px;
+  height: 20px;
+  opacity: 0;
+  transition: 0.4s;
+  background: url('../img/icons/like2.png');
+}
+.product__heart.active .icon__heart {
+  opacity: 0;
+}
+.product__heart:hover .icon__heart {
   opacity: 0;
 }
 .product__heart.active .icon__heart-icon {
@@ -539,7 +550,16 @@ body {
 .price__item {
   display: flex;
   flex: 0 0 50%;
+  /* position: relative; */
 }
+/* .price__link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transition: 0.4s;
+} */
 .price__circle {
   border-radius: 50%;
   background-color: rgb(186, 186, 186);
@@ -650,11 +670,25 @@ body {
 .credit__link {
   font-size: 16px;
   color: rgb(0, 0, 0);
-  text-decoration: underline;
   transition: 0.4s;
+  position: relative;
+}
+.credit__link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-top: 1px solid #000;
+  transition: 0.4s;
+  width: 100%;
+  opacity: 1;
 }
 .credit__link:hover {
   color: #7AB037;
+}
+.credit__link:hover::after {
+  opacity: 0;
+  transition: 0.4s;
 }
 .wrapper-icons {
   margin-bottom: 15px;
@@ -675,7 +709,6 @@ body {
 }
 .icons__underlink {
   font-size: 15px;
-  text-decoration: underline;
   color: #000;
   transition: 0.4s;
 }
