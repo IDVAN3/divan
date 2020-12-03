@@ -311,6 +311,7 @@ body {
 }
 .product__capabilities {
   display: flex;
+  align-items: center;
   padding-right: 25px;
 }
 .product__clock {
@@ -333,6 +334,8 @@ body {
   align-items: center;
 }
 .product__heart {
+  width: 23px;
+  height: 20px;
   margin-left: 15px;
   display: flex;
   align-items: center;
